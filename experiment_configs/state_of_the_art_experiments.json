@@ -1,0 +1,141 @@
+[
+                  {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "linear",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "local_ep": 10,
+"num_users": 10,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "optimizer" : "adam",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0"],
+"layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_ldp_purchase.csv"
+    }},
+  
+                      {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "linear",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "local_ep": 10,
+"num_users": 10,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "optimizer" : "adam",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0"],
+"layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_cdp_purchase.csv"
+    }},
+
+                  {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "linear",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "local_ep": 10,
+"num_users": 10,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "optimizer" : "adam",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0"],
+"layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_wdp_purchase.csv"
+    }},
+                  {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "linear",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "local_ep": 10,
+"num_users": 10,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "optimizer" : "adam",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0"],
+"layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_ldp_purchase.csv"
+    }},
+  
+                      {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "linear",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "local_ep": 10,
+"num_users": 10,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "optimizer" : "adam",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0"],
+"layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_cdp_purchase.csv"
+    }},
+
+                  {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "linear",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "local_ep": 10,
+"num_users": 10,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "optimizer" : "adam",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0"],
+"layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_wdp_purchase.csv"
+    }}
+
+
+
+]

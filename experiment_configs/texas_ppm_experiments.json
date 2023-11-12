@@ -1,0 +1,80 @@
+[
+  {
+    "experiment_name" : "texas_Baseline",
+    "config": {
+      "dataset": "texas",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 550,
+      "lr": 0.0001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "None",
+      "result_path": "./results/ppm_baseline_texas.csv"
+    }
+  },
+  {
+    "experiment_name" : "texas_WoLinear1",
+    "config": {
+      "dataset": "texas",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 550,
+      "lr": 0.0001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "pastel",
+      "pastel_layers" : ["features.0"],
+      "result_path": "./results/ppm_linear1_texas.csv"
+    }
+  },
+
+  {
+    "experiment_name" : "texas_WoLinear2",
+    "config": {
+      "dataset": "texas",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 550,
+      "lr": 0.0001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "pastel",
+      "pastel_layers" : ["features.0", "features.2"],
+      "result_path": "./results/ppm_linear2_texas.csv"
+    }
+  },
+      {
+    "experiment_name" : "texas_gnl",
+    "config": {
+      "dataset": "texas",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 550,
+      "lr": 0.0001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "gnl",
+      "result_path": "./results/ppm_gnl_texas.csv"
+    }
+  },
+      {
+    "experiment_name" : "texas_relaxloss",
+    "config": {
+      "dataset": "texas",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 550,
+      "lr": 0.0001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "relaxloss",
+      "result_path": "./results/ppm_relaxloss_texas.csv"
+    }
+  }
+]

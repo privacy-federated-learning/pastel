@@ -1,0 +1,236 @@
+[
+
+   {
+    "experiment_name" : "gtsrb_vgg_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/ppm_baseline_gtsrb_vgg.csv"
+    }
+  },
+  {
+    "experiment_name" : "gtsrb_vgg_WoConv",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "pastel_layers" : ["features.22", "features.25"],
+      "result_path": "./results/ppm_conv_gtsrb_vgg.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "gtsrb_vgg_WoFirstBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "pastel_layers" : ["features.1"],
+      "result_path": "./results/ppm_first-bn_gtsrb_vgg.csv"
+    }
+  },
+      {
+    "experiment_name" : "gtsrb_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_last-bn_gtsrb_vgg.csv"
+    }
+  },
+          {
+    "experiment_name" : "gtsrb_resnet_Linear",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "pastel_layers" : ["classifier."],
+      "result_path": "./results/ppm_linear_gtsrb_vgg.csv"
+    }
+  },
+        {
+    "experiment_name" : "gtsrb_vgg_AllBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "pastel_layers" : ["features.1", "features.5", "features.9", "features.12", "features.16", "features.19", "features.23", "features.26"],
+      "result_path": "./results/ppm_all-bn_gtsrb_vgg.csv"
+    }
+  },
+      {
+    "experiment_name" : "gtsrb_vgg_gnl",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "result_path": "./results/ppm_gnl_gtsrb_vgg.csv"
+    }
+  },
+      {
+    "experiment_name" : "gtsrb_vgg_relaxloss",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "relaxloss",
+      "relaxloss_alpha": 0.1,
+      "result_path": "./results/ppm_relaxloss01_gtsrb_vgg.csv"
+    }
+  },
+        {
+    "experiment_name" : "gtsrb_vgg_relaxloss",
+    "config": {
+      "dataset": "gtsrb",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "relaxloss",
+      "relaxloss_alpha": 0.3,
+      "result_path": "./results/ppm_relaxloss03_gtsrb_vgg.csv"
+    }
+  },
+          {
+    "experiment_name" : "gtsrb_vgg_relaxloss",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "relaxloss",
+      "relaxloss_alpha": 0.5,
+      "result_path": "./results/ppm_relaxloss05_gtsrb_vgg.csv"
+    }
+  },
+       {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 5e-2,
+      "result_path": "./results/ppm_anl_eps5e2_gtsrb_vgg.csv"
+    }
+  },
+         {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.1,
+      "result_path": "./results/ppm_anl_eps01_gtsrb_vgg.csv"
+    }
+  },
+         {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.2,
+      "result_path": "./results/ppm_anl_eps02_gtsrb_vgg.csv"
+    }
+  },
+         {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.4,
+      "result_path": "./results/ppm_anl_eps04_gtsrb_vgg.csv"
+    }
+  }
+  ,
+         {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.8,
+      "result_path": "./results/ppm_anl_eps08_gtsrb_vgg.csv"
+    }
+  },
+           {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 1,
+      "result_path": "./results/ppm_anl_eps1_gtsrb_vgg.csv"
+    }
+  },
+             {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 2,
+      "result_path": "./results/ppm_anl_eps2_gtsrb_vgg.csv"
+    }
+  },
+               {
+    "experiment_name" : "gtsrb_vgg_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 10,
+      "result_path": "./results/ppm_anl_eps10_gtsrb_vgg.csv"
+    }
+  }
+]

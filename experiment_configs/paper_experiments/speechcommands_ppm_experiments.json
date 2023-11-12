@@ -1,0 +1,87 @@
+[
+
+  {
+    "experiment_name" : "Speech_commands_Baseline",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "attack_min_epoch" : 50,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "None",
+      "result_path": "./results/ppm_baseline_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "Speech_commands_Relaxloss",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "attack_min_epoch" : 50,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "relaxloss",
+      "relaxloss_alpha": 0.3,
+      "result_path": "./results/ppm_speechcommands_relaxloss.csv"
+    }
+  },
+
+  {
+    "experiment_name" : "Speech_commands_WoBN17",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "attack_min_epoch" : 50,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm": "pastel",
+      "result_path": "./results/ppm_bn17_speechcommands.csv",
+      "pastel_layers" : ["bn17."]
+    }
+  },
+    {
+    "experiment_name" : "Speech_commands_ANL",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "attack_min_epoch" : 50,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm": "anl",
+      "result_path": "./results/ppm_ANL_speechcommands.csv"
+    }
+  },
+      {
+    "experiment_name" : "Speech_commands_GNL",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "attack_min_epoch" : 50,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm": "gnl",
+      "result_path": "./results/ppm_gnl_speechcommands.csv"
+    }
+  }
+]

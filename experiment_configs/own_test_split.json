@@ -1,0 +1,73 @@
+[
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 2,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 1,
+      "lr": 1e-3,
+      "ppm" : "NOne",
+      "dirichlet" : 0,
+      "train_target_model": 1,
+      "train_shadow_model": 1,
+      "train_attack_model": 1,
+      "iid": 1,
+      "eps": 1.5,
+      "result_path": "./results/own_test_split_purchase.csv"
+    }
+  },
+
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "celeba",
+      "num_classes": 32,
+      "classifier": "vgg",
+      "epochs": 50,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 45,
+      "lr": 1e-3,
+      "ppm" : "NOne",
+      "dirichlet" : 0,
+      "train_target_model": 1,
+      "train_shadow_model": 1,
+      "train_attack_model": 1,
+      "iid": 1,
+      "eps": 1.5,
+      "result_path": "./results/own_test_split_celeba.csv"
+    }
+  },
+
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "num_classes": 43,
+      "classifier": "vgg",
+      "epochs": 50,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 45,
+      "lr": 1e-3,
+      "ppm" : "NOne",
+      "dirichlet" : 0,
+      "train_target_model": 1,
+      "train_shadow_model": 1,
+      "train_attack_model": 1,
+      "iid": 1,
+      "eps": 1.5,
+      "result_path": "./results/own_test_split_gtsrb.csv"
+    }
+  }
+]

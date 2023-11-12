@@ -1,0 +1,106 @@
+[
+                {
+    "experiment_name" : "purchase_dirichlet15",
+    "config": {
+      "alpha": 0.3,
+      "ppm" : "None",
+      "result_path": "./results/dirichlet3_baseline.csv"
+    }},                {
+    "experiment_name" : "purchase_dirichlet15",
+    "config": {
+      "alpha": 0.2,
+      "ppm" : "None",
+      "result_path": "./results/dirichlet2_baseline.csv"
+    }},                {
+    "experiment_name" : "purchase_dirichlet15",
+    "config": {
+      "alpha": 0.15,
+      "ppm" : "None",
+      "result_path": "./results/dirichlet15_baseline.csv"
+    }},
+
+                {
+    "experiment_name" : "purchase_dirichlet15",
+    "config": {
+      "alpha": 0.15,
+      "ppm" : "cdp",
+      "result_path": "./results/dirichlet15_cdp.csv"
+    }},
+    {
+    "experiment_name" : "purchase_dirichlet15",
+    "config": {
+      "alpha": 0.15,
+      "ppm" : "wdp",
+      "result_path": "./results/dirichlet15_wdp.csv"
+    }},
+      {
+    "experiment_name" : "purchase_dirichlet15",
+    "config": {
+      "alpha": 0.15,
+      "ppm" : "ldp",
+      "result_path": "./results/dirichlet15_ldp.csv"
+    }},
+                {
+    "experiment_name" : "purchase_dirichlet2",
+    "config": {
+      "alpha": 0.2,
+      "ppm" : "cdp",
+      "result_path": "./results/dirichlet2_cdp.csv"
+    }},
+    {
+    "experiment_name" : "purchase_dirichlet2",
+    "config": {
+      "alpha": 0.2,
+      "ppm" : "wdp",
+      "result_path": "./results/dirichlet2_wdp.csv"
+    }},
+      {
+    "experiment_name" : "purchase_dirichlet2",
+    "config": {
+      "alpha": 0.2,
+      "ppm" : "ldp",
+      "result_path": "./results/dirichlet2_ldp.csv"
+    }},
+                  {
+    "experiment_name" : "purchase_dirichlet3",
+    "config": {
+      "alpha": 0.3,
+      "ppm" : "cdp",
+      "result_path": "./results/dirichlet3_cdp.csv"
+    }},
+    {
+    "experiment_name" : "purchase_dirichlet3",
+    "config": {
+      "alpha": 0.3,
+      "ppm" : "wdp",
+      "result_path": "./results/dirichlet3_wdp.csv"
+    }},
+      {
+    "experiment_name" : "purchase_dirichlet3",
+    "config": {
+      "alpha": 0.3,
+      "ppm" : "ldp",
+      "result_path": "./results/dirichlet3_ldp.csv"
+    }},
+                    {
+    "experiment_name" : "purchase_dirichlet05",
+    "config": {
+      "alpha": 0.05,
+      "ppm" : "cdp",
+      "result_path": "./results/dirichlet05_cdp.csv"
+    }},
+    {
+    "experiment_name" : "purchase_dirichlet05",
+    "config": {
+      "alpha": 0.05,
+      "ppm" : "wdp",
+      "result_path": "./results/dirichlet05_wdp.csv"
+    }},
+      {
+    "experiment_name" : "purchase_dirichlet05",
+    "config": {
+      "alpha": 0.05,
+      "ppm" : "ldp",
+      "result_path": "./results/dirichlet05_ldp.csv"
+    }}
+]

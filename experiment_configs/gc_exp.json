@@ -1,0 +1,12 @@
+[{
+    "experiment_name" : "celeba_vgg_Baseline",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "gc",
+      "result_path": "./results/ppm_gc_celeba_vgg.csv"
+    }
+  }]

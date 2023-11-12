@@ -1,0 +1,193 @@
+[
+
+
+                {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.0."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv_true_adagrad_gtsrb_vgg.csv"
+    }},
+
+      {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.4."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv2_true__adagrad_gtsrb_vgg.csv"
+    }},
+
+        {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.8."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv3_true_adagrad_gtsrb_vgg.csv"
+    }},
+
+          {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.11."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv4_true_adagrad_gtsrb_vgg.csv"
+    }},
+          {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.15."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv5_true_adagrad_gtsrb_vgg.csv"
+    }},
+
+            {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.18"],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv6_true_adagrad_gtsrb_vgg.csv"
+    }},
+
+              {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.22"],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv7_true_adagrad_gtsrb_vgg.csv"
+    }},
+
+
+
+     {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["features.25."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_conv8_true_adgrad_gtsrb_vgg.csv"
+    }},
+
+     {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["classifier."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_linear_true_adagrad_gtsrb_vgg.csv"
+    }}
+]

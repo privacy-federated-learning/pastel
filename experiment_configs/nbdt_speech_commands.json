@@ -1,0 +1,44 @@
+[
+   {
+    "experiment_name": "Speech_commands_WoBN17",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "classifier": "M18",
+      "nbdt": 1,
+      "ppm": "None",
+      "attack_min_epoch": 70,
+      "result_path": "./results/nbdt_speechcommands_N.csv",
+      "pastel_layers": [
+        "bn17."
+      ]
+    }
+  },
+      {
+    "experiment_name": "Speech_commands_WoBN17",
+    "config": {
+      "dataset": "speech_commands",
+      "num_classes": 35,
+      "num_users": 5,
+      "local_ep": 5,
+      "epochs": 80,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "classifier": "M18",
+      "nbdt": 1,
+      "ppm": "pastel",
+      "attack_min_epoch": 70,
+      "result_path": "./results/nbdt_speechcommands_NP.csv",
+      "pastel_layers": [
+        "bn17."
+      ]
+    }
+  }
+]

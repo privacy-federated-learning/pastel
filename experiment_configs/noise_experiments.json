@@ -1,0 +1,394 @@
+[
+  {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "relaxloss_alpha": 0.2,
+      "eps": 1.5,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_wdp_1_5_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "relaxloss_alpha": 0.2,
+      "eps": 1.5,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_wdp_1_5_purchase.csv"
+    }},
+        {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "relaxloss_alpha": 0.2,
+      "eps": 1.5,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_ldp_1_5_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "relaxloss_alpha": 0.2,
+      "eps": 1.5,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_ldp_1_5_purchase.csv"
+    }
+  },
+
+         {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.015,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_cdp_1_5_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.015,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_cdp_1_5_purchase.csv"
+    }
+  },
+
+
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "relaxloss_alpha": 0.2,
+      "eps": 2,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_wdp_2_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "relaxloss_alpha": 0.2,
+      "eps": 2,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_wdp_2_purchase.csv"
+    }},
+        {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "relaxloss_alpha": 0.2,
+      "eps": 1.5,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_ldp_2_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "relaxloss_alpha": 0.2,
+      "eps": 2,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_ldp_2_purchase.csv"
+    }
+  },
+
+         {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.02,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_cdp_2_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.02,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_cdp_2_purchase.csv"
+    }
+  },
+      {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "relaxloss_alpha": 0.2,
+      "eps": 1,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_wdp_1_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "relaxloss_alpha": 0.2,
+      "eps": 1,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_wdp_1_purchase.csv"
+    }},
+        {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "relaxloss_alpha": 0.2,
+      "eps": 1,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_ldp_1_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "relaxloss_alpha": 0.2,
+      "eps": 1,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_ldp_1_purchase.csv"
+    }
+  },
+
+         {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.01,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_cdp_1_speechcommands.csv"
+    }
+  },
+
+    {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.01,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_cdp_1_purchase.csv"
+    }
+  },
+           {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+"num_classes": 35,
+      "classifier": "vgg",
+      "epochs": 80,
+      "optimizer": "adam",
+      "local_ep": 5,
+      "num_users": 5,
+      "attack_min_epoch" : 70,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.01,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_baseline_speechcommands.csv"
+    }
+  },
+      {
+    "experiment_name" : "speechcommands_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+"num_classes": 100,
+      "classifier": "vgg",
+      "epochs": 300,
+      "optimizer": "adam",
+      "local_ep": 10,
+      "num_users": 10,
+      "attack_min_epoch" : 200,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "relaxloss_alpha": 0.2,
+      "sigma": 0.01,
+      "pastel_layers" : ["features.26"],
+      "result_path": "./results/ppm_baseline_purchase.csv"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+
+                {
+    "experiment_name" : "purchase_resnet_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["conv1."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_cdp_speechcommands.csv"
+    }},
+
+                {
+    "experiment_name" : "purchase_resnet_WoLastBN",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["conv1."],
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_ldp_speechcommands.csv"
+    }}
+]

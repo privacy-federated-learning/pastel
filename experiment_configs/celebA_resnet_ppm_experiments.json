@@ -1,0 +1,108 @@
+[
+
+       {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 5e-2,
+      "result_path": "./results/ppm_anl_eps5e2_celeba_resnet.csv"
+    }
+  },
+         {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.1,
+      "result_path": "./results/ppm_anl_eps01_celeba_resnet.csv"
+    }
+  },
+         {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.2,
+      "result_path": "./results/ppm_anl_eps02_celeba_resnet.csv"
+    }
+  },
+         {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.4,
+      "result_path": "./results/ppm_anl_eps04_celeba_resnet.csv"
+    }
+  }
+  ,
+         {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 0.8,
+      "result_path": "./results/ppm_anl_eps08_celeba_resnet.csv"
+    }
+  },
+           {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 1,
+      "result_path": "./results/ppm_anl_eps1_celeba_resnet.csv"
+    }
+  },
+             {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 2,
+      "result_path": "./results/ppm_anl_eps2_celeba_resnet.csv"
+    }
+  },
+               {
+    "experiment_name" : "celeba_resnet_anl_2e5",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 10,
+      "result_path": "./results/ppm_anl_eps10_celeba_resnet.csv"
+    }
+  }
+]

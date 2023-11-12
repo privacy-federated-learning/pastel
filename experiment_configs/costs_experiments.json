@@ -1,0 +1,391 @@
+[
+
+                                  {
+    "experiment_name" : "gtsrb_vgg_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_gtsrb_vgg.csv"
+    }},
+  
+  
+       {
+    "experiment_name" : "gtsrb_resnet_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/costs_baseline_gtsrb_resnet.csv"
+    }},
+            {
+    "experiment_name" : "gtsrb_resnet_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_ldp_gtsrb_resnet.csv"
+    }
+  },
+              {
+    "experiment_name" : "gtsrb_resnet_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "result_path": "./results/costs_cdp_gtsrb_resnet.csv"
+    }
+  },
+                {
+    "experiment_name" : "gtsrb_resnet_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_wdp_gtsrb_resnet.csv"
+    }},
+                                  {
+    "experiment_name" : "gtsrb_resnet_Baseline",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_gtsrb_resnet.csv"
+    }},
+  
+       {
+    "experiment_name" : "cifar_vgg_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/costs_baseline_cifar_vgg.csv"
+    }},
+            {
+    "experiment_name" : "cifar_vgg_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_ldp_cifar_vgg.csv"
+    }
+  },
+              {
+    "experiment_name" : "cifar_vgg_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "result_path": "./results/costs_cdp_cifar_vgg.csv"
+    }
+  },
+                {
+    "experiment_name" : "cifar_vgg_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_wdp_cifar_vgg.csv"
+    }},
+                                  {
+    "experiment_name" : "cifar_vgg_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_cifar_vgg.csv"
+    }},
+  
+  
+       {
+    "experiment_name" : "cifar_resnet_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/costs_baseline_cifar_resnet.csv"
+    }},
+            {
+    "experiment_name" : "cifar_resnet_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_ldp_cifar_resnet.csv"
+    }
+  },
+              {
+    "experiment_name" : "cifar_resnet_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "result_path": "./results/costs_cdp_cifar_resnet.csv"
+    }
+  },
+                {
+    "experiment_name" : "cifar_resnet_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_wdp_cifar_resnet.csv"
+    }},
+                                  {
+    "experiment_name" : "cifar_resnet_Baseline",
+    "config": {
+      "dataset": "cifar",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_cifar_resnet.csv"
+    }},
+  
+       {
+    "experiment_name" : "cifar100_vgg_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/costs_baseline_cifar100_vgg.csv"
+    }},
+            {
+    "experiment_name" : "cifar100_vgg_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_ldp_cifar100_vgg.csv"
+    }
+  },
+              {
+    "experiment_name" : "cifar100_vgg_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "result_path": "./results/costs_cdp_cifar100_vgg.csv"
+    }
+  },
+                {
+    "experiment_name" : "cifar100_vgg_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_wdp_cifar100_vgg.csv"
+    }},
+                                  {
+    "experiment_name" : "cifar100_vgg_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "vgg",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_cifar100_vgg.csv"
+    }},
+  
+  
+       {
+    "experiment_name" : "cifar100_resnet_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/costs_baseline_cifar100_resnet.csv"
+    }},
+            {
+    "experiment_name" : "cifar100_resnet_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_ldp_cifar100_resnet.csv"
+    }
+  },
+              {
+    "experiment_name" : "cifar100_resnet_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "result_path": "./results/costs_cdp_cifar100_resnet.csv"
+    }
+  },
+                {
+    "experiment_name" : "cifar100_resnet_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_wdp_cifar100_resnet.csv"
+    }},
+                                  {
+    "experiment_name" : "cifar100_resnet_Baseline",
+    "config": {
+      "dataset": "cifar100",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_cifar100_resnet.csv"
+    }},
+         {
+    "experiment_name" : "speech_commands_resnet_Baseline",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/costs_baseline_speech_commands_resnet.csv"
+    }},
+            {
+    "experiment_name" : "speech_commands_resnet_Baseline",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_ldp_speech_commands_resnet.csv"
+    }
+  },
+              {
+    "experiment_name" : "speech_commands_resnet_Baseline",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "cdp",
+      "result_path": "./results/costs_cdp_speech_commands_resnet.csv"
+    }
+  },
+                {
+    "experiment_name" : "speech_commands_resnet_Baseline",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "result_path": "./results/costs_wdp_speech_commands_resnet.csv"
+    }},
+                                  {
+    "experiment_name" : "speech_commands_resnet_Baseline",
+    "config": {
+      "dataset": "speech_commands",
+      "classifier": "resnet",
+      "epochs" : 3,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+"optimizer": "adagrad",
+      "pastel_layers": ["classifier"],
+
+      "result_path": "./results/costs_pastel_speech_commands_resnet.csv"
+    }}
+
+
+
+
+
+
+]

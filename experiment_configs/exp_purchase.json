@@ -1,0 +1,22 @@
+[
+
+    {
+  "experiment_name" : "purchase_gc",
+  "config": {
+    "dataset": "purchase",
+    "num_classes": 100,
+    "num_users": 10,
+    "local_ep": 10,
+    "attack_min_epoch": 290,
+    "epochs": 300,
+    "lr": 0.001,
+    "momentum": 0.5,
+    "optimizer": "sgd",
+    "ppm": "gc",
+    "result_path": "./results/ppm_gc_purchase.csv",
+    "pastel_layers" : ["classifier"],
+    "gc_preserved_percent" : 0.75
+  }
+}
+
+]

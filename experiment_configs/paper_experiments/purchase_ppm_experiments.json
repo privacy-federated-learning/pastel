@@ -1,0 +1,67 @@
+[
+    {
+    "experiment_name" : "purchase_Baseline",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 350,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm": "None",
+      "result_path": "./results/ppm_baseline_purchase.csv",
+      "pastel_layers" : ["fc1."]
+    }
+  },
+
+
+    {
+    "experiment_name" : "purchase_WOFc",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 350,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm": "pastel",
+      "result_path": "./results/ppm_fc1_purchase.csv",
+      "pastel_layers" : ["fc1."]
+    }
+  },
+      {
+    "experiment_name" : "purchase_GNL",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 350,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "gnl",
+      "result_path": "./results/ppm_gnl_purchase.csv"
+    }
+  },
+      {
+    "experiment_name" : "purchase_relaxloss",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "epochs": 350,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm" : "relaxloss",
+      "relaxloss_alpha": 0.3,
+      "result_path": "./results/ppm_relaxloss_purchase.csv"
+    }
+  }
+]

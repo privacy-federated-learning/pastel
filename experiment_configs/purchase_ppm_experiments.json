@@ -1,0 +1,92 @@
+[
+
+      {
+    "experiment_name" : "purchase_Baseline",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "attack_min_epoch": 290,
+      "epochs": 300,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "sgd",
+      "ppm": "pastel",
+      "result_path": "./results/ppm_sgd_purchase.csv",
+      "pastel_layers" : ["classifier"]
+    }
+  },
+
+    {
+    "experiment_name" : "purchase_Baseline",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "attack_min_epoch": 290,
+      "epochs": 300,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adam",
+      "ppm": "pastel",
+      "result_path": "./results/ppm_adam_purchase.csv",
+      "pastel_layers" : ["classifier"]
+    }
+  },
+
+
+    {
+    "experiment_name" : "purchase_WOFc",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "attack_min_epoch": 290,
+      "epochs": 300,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adagrad",
+      "ppm": "pastel",
+      "result_path": "./results/ppm_adagrad_purchase.csv",
+      "pastel_layers" : ["classifier"]
+    }
+  },
+      {
+    "experiment_name" : "purchase_GNL",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "attack_min_epoch": 290,
+      "epochs": 300,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adgd",
+      "ppm" : "pastel",
+      "result_path": "./results/ppm_adgd_purchase.csv",
+            "pastel_layers" : ["classifier"]
+
+    }
+  },
+      {
+    "experiment_name" : "purchase_relaxloss",
+    "config": {
+      "dataset": "purchase",
+      "num_classes": 100,
+      "num_users": 10,
+      "local_ep": 10,
+      "attack_min_epoch": 290,
+      "epochs": 300,
+      "lr": 0.001,
+      "momentum": 0.5,
+      "optimizer": "adamax",
+      "ppm" : "pastel",
+      "result_path": "./results/ppm_adamax_purchase.csv",
+      "pastel_layers" : ["classifier"]
+    }
+  }
+]

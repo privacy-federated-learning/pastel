@@ -1,0 +1,67 @@
+[
+
+   {
+    "experiment_name" : "celeba_resnet_Baseline",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "None",
+      "result_path": "./results/ppm_baseline_celeba_resnet.csv"
+    }
+  },
+      {
+    "experiment_name" : "celeba_resnet_WoLastBN",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "pastel_layers" : ["layer3.2.bn2"],
+      "result_path": "./results/ppm_last-bn_celeba_resnet.csv"
+    }
+  },
+
+      {
+    "experiment_name" : "celeba_resnet_gnl",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "gnl",
+      "result_path": "./results/ppm_gnl_celeba_resnet.csv"
+    }
+  },
+      {
+    "experiment_name" : "celeba_resnet_relaxloss",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "relaxloss",
+      "relaxloss_alpha": 0.1,
+      "result_path": "./results/ppm_relaxloss01_celeba_resnet.csv"
+    }
+  },
+       {
+    "experiment_name" : "celeba_resnet_anl",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 5e-2,
+      "result_path": "./results/ppm_anl_celeba_resnet.csv"
+    }
+  }
+  ]

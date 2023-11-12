@@ -1,0 +1,45 @@
+[
+      {
+    "experiment_name" : "celeba_vgg_WoLastBN",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "vgg",
+      "epochs": 50,
+      "num_classes": 32,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "pastel_layers" : ["features.25"],
+      "result_path": "./results/celeba_vgg_dinar_dp.csv"
+    }
+  },
+        {
+    "experiment_name" : "celeba_vgg_WoLastBN",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "vgg",
+      "epochs": 50,
+      "num_classes": 32,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "pastel_layers" : ["features.25"],
+      "result_path": "./results/gtsrb_vgg_dinar_dp.csv"
+    }
+  },
+          {
+    "experiment_name" : "celeba_vgg_WoLastBN",
+    "config": {
+      "dataset": "purchase",
+      "classifier": "vgg",
+      "epochs": 300,
+      "num_classes": 100,
+      "attack_min_epoch" : 290,
+      "lr": 1e-3,
+      "ppm" : "ldp",
+      "pastel_layers" : ["features.4"],
+      "result_path": "./results/purchase_vgg_dinar_dp.csv"
+    }
+  }
+
+]

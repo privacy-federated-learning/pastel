@@ -1,0 +1,42 @@
+[
+
+           {
+    "experiment_name" : "gtsrb_resnet_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 1,
+      "result_path": "./results/ppm_anl_eps1_gtsrb_resnet.csv"
+    }
+  },
+             {
+    "experiment_name" : "gtsrb_resnet_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 2,
+      "result_path": "./results/ppm_anl_eps2_gtsrb_resnet.csv"
+    }
+  },
+               {
+    "experiment_name" : "gtsrb_resnet_anl_2e5",
+    "config": {
+      "dataset": "gtsrb",
+      "classifier": "resnet",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "lr": 1e-3,
+      "ppm" : "anl",
+      "eps": 10,
+      "result_path": "./results/ppm_anl_eps10_gtsrb_resnet.csv"
+    }
+  }
+]

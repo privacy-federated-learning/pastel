@@ -1,0 +1,25 @@
+[
+
+
+                {
+    "experiment_name" : "purchase_vgg_WoLastBN",
+    "config": {
+      "dataset": "celeba",
+      "classifier": "vgg",
+      "epochs": 50,
+      "attack_min_epoch" : 40,
+      "local_ep": 5,
+      "num_users": 5,
+      "lr": 1e-3,
+      "ppm" : "pastel",
+      "optimizer" : "adagrad",
+      "relaxloss_alpha": 0.2,
+      "pastel_layers" : ["classifier"],
+      "layer_type": "linear",
+      "shared_aggregation": 0,
+      "posterior_flattening": 0,
+      "posterior_flattening_epoch": 0,
+      "prob_distribution" : "None",
+      "result_path": "./results/ppm_pastel_linear_true_adagrad_celeba_vgg.csv"
+    }}
+]
